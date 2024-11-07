@@ -1,4 +1,6 @@
 import { getCSS } from "./common.js";
+import { getCSS, tickConfig } from "./common.js"
+
 
 async function quantidadeUsuarios() {
   const url = 'https://raw.githubusercontent.com/TamirisCeolin/Ciencia-de-dados-Tamiris/refs/heads/main/api-main/numero-usuarios.json';
@@ -31,34 +33,30 @@ async function quantidadeUsuarios() {
       }
     },
     xaxis: {
-      const tickConfig = {
-        color: getCSS('--primary-color'),
-        size: 16,
-        family: getCSS('--font')
-      }
-
+      tickfont: tickConfig,
       title: {
         text: 'nome das redes sociais',
         font: {
           color: getCSS('--secondary-color')
         }
-      },
-      
-      yaxis: {
-        title: {
-          text: 'bilhões de usuários ativos',
-          font: {
-              color: getCSS('--secondary-color')
-          }
-
+      }
+    },
+    yaxis: {
+      tickfont: tickConfig,
+      title: {
+        text: 'bilhões de usuários ativos',
+        font: {
+          color: getCSS('--secondary-color')
+        }
       }
     }
+  }
 
   const grafico = document.createElement('div')
   grafico.className = 'grafico'
   document.getElementById('graficos-container').appendChild(grafico)
   Plotly.newPlot(grafico, data, layout)
 
-  }
+}
 
-  quantidadeUsuarios();
+quantidadeUsuarios();
