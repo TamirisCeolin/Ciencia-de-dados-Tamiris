@@ -57,6 +57,10 @@ header {
     border: var(--secondary-color) solid 2px;
 }
 
+.grafico {
+    margin-top: 3rem;
+}
+
 span {
     font-weight: bold;
     color: var(--secondary-color);
