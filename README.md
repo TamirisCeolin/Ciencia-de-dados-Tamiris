@@ -8,10 +8,10 @@ Existem 5 bases de dados:
 
 [Dados globais](https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json)
 
-Número de usuários por plataforma
+[Número de usuários por plataforma](https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json)
 
-Principal objetivo do uso das redes
+[Principal objetivo do uso das redes](https://raw.githubusercontent.com/guilhermeonrails/api/main/razoes-globais.json)
 
-Redes favoritas
+[Redes favoritas](https://raw.githubusercontent.com/guilhermeonrails/api/main/redes-favoritas.json)
 
-Principais atividades
+[Principais atividades](https://raw.githubusercontent.com/guilhermeonrails/api/main/principais-atividades.json)
