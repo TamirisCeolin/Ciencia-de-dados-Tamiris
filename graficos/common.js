@@ -8,4 +8,4 @@ const getCSS = (variavel) => {
     family: getCSS('--font')
   }
   
-  export {getCSS}
+  export {getCSS, tickConfig};
