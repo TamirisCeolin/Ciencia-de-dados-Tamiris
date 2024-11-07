@@ -6,7 +6,7 @@ Este repositório contém dados JSON relacionados ao uso e tendências em difere
 Conteúdo
 Existem 5 bases de dados:
 
-[Dados globais] (https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json)
+[Dados globais(https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json)] 
 
 Número de usuários por plataforma
 
