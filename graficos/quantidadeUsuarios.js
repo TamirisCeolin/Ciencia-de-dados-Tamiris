@@ -1,4 +1,3 @@
-import { getCSS } from "./common.js";
 import { getCSS, tickConfig } from "./common.js"
 
 
