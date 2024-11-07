@@ -1,4 +1,4 @@
-const url = 'https://github.com/TamirisCeolin/Ciencia-de-dados-Tamiris/blob/main/api-main/dados-globais.json';
+const url = 'https://raw.githubusercontent.com/TamirisCeolin/Ciencia-de-dados-Tamiris/refs/heads/main/api-main/dados-globais.json';
 
 async function visualizarInformacoesGlobais() {
     const res = await fetch(url);
