@@ -44,7 +44,6 @@ async function quantidadeUsuarios() {
         }
       }
     },
-
     yaxis: {
       tickfont: tickConfig,
       title: {
