@@ -1,3 +1,4 @@
+import { getCSS } from "./common.js";
 
 async function quantidadeUsuarios() {
   const url = 'https://raw.githubusercontent.com/TamirisCeolin/Ciencia-de-dados-Tamiris/refs/heads/main/api-main/numero-usuarios.json';
@@ -12,7 +13,7 @@ async function quantidadeUsuarios() {
       y: quantidadeUsuarios,
       type: 'bar',
       marker: {
-        color: getComputedStyle(document.body).getPropertyValue('--primary-color');
+        color: getCSS('--primary-color')
       }
     }
   ]
